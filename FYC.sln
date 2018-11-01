@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYC.DataAccess", "FYC.DataAccess\FYC.DataAccess.csproj", "{0B3736DB-9F82-4079-BE5E-D41587324A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYC.WebApp", "FYC.WebApp\FYC.WebApp.csproj", "{9A754370-911A-45C6-94C0-1F749B4B5F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3736DB-9F82-4079-BE5E-D41587324A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3736DB-9F82-4079-BE5E-D41587324A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3736DB-9F82-4079-BE5E-D41587324A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3736DB-9F82-4079-BE5E-D41587324A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A754370-911A-45C6-94C0-1F749B4B5F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A754370-911A-45C6-94C0-1F749B4B5F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A754370-911A-45C6-94C0-1F749B4B5F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A754370-911A-45C6-94C0-1F749B4B5F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97752CC9-9D48-470B-9292-B231E5B886D8}
+	EndGlobalSection
+EndGlobal

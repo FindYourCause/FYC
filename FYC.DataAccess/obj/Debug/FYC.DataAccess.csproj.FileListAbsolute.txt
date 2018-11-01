@@ -1,0 +1,16 @@
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.dll
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.pdb
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\bin\Debug\Dapper.dll
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\bin\Debug\Dapper.xml
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CopyComplete
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.dll
+C:\Users\Logic Systems\source\repos\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.pdb
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.dll
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.pdb
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\bin\Debug\Dapper.dll
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\bin\Debug\Dapper.xml
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CopyComplete
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.dll
+C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.pdb
