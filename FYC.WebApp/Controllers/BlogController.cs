@@ -1,29 +1,20 @@
-﻿using FYC.DataAccess.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using FYC.DataAccess.EFServices;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 
 namespace FYC.WebApp.Controllers
 {
     public class BlogController : Controller
     {
-        IBlogService _blogService;
+        private BlogService _BlogService;
         public BlogController()
         {
-
+            _BlogService = new BlogService();
         }
 
-        public BlogController(IBlogService blogService)
+        public ActionResult GetAllBlogPostsByPageIndex()
         {
-            _blogService = blogService;
-        }
-
-        public async Task<ActionResult> GetAllBlogPostsByPageIndex()
-        {
-            var resultData = await _blogService.GetAllBlogByPageIndex(3, 4);
+            var resultData = _BlogService.GetAllCategories(1, 1);
             if (resultData == null)
             {
                 return new HttpNotFoundResult();

@@ -35,9 +35,18 @@
     <Reference Include="Dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.1.50.5\lib\net451\Dapper.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,22 +55,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EFRepository\FYCEntities.cs" />
+    <Compile Include="EFRepository\Fyc_Def_Beneficiary.cs" />
+    <Compile Include="EFRepository\Fyc_Def_Category.cs" />
+    <Compile Include="EFRepository\Fyc_Def_Donors.cs" />
+    <Compile Include="EFService\BaseEntityService.cs" />
+    <Compile Include="EFService\BaseService.cs" />
+    <Compile Include="EFService\BlogService.cs" />
     <Compile Include="Entities\Blog.cs" />
     <Compile Include="Entities\Category.cs" />
-    <Compile Include="Infrastructure\ConnectionFactory.cs" />
-    <Compile Include="Infrastructure\IConnectionFactory.cs" />
+    <Compile Include="Entities\Donors.cs" />
     <Compile Include="Literals\BlogLiterals.cs" />
+    <Compile Include="Literals\DonorsLiterals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\BlogRepository.cs" />
-    <Compile Include="Repositories\GenericRepository.cs" />
-    <Compile Include="Repositories\IBlogRepository.cs" />
-    <Compile Include="Repositories\IGenericRepository.cs" />
-    <Compile Include="Services\BlogService.cs" />
-    <Compile Include="Services\IBlogService.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
