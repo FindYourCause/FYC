@@ -14,3 +14,17 @@ C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.Data
 C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CopyComplete
 C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.dll
 C:\Users\Logic Systems\source\repos\FYCGIT\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.pdb
+D:\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.dll.config
+D:\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.dll
+D:\FYC\FYC.DataAccess\bin\Debug\FYC.DataAccess.pdb
+D:\FYC\FYC.DataAccess\bin\Debug\Dapper.dll
+D:\FYC\FYC.DataAccess\bin\Debug\EntityFramework.dll
+D:\FYC\FYC.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\FYC\FYC.DataAccess\bin\Debug\Dapper.xml
+D:\FYC\FYC.DataAccess\bin\Debug\EntityFramework.xml
+D:\FYC\FYC.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CoreCompileInputs.cache
+D:\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csproj.CopyComplete
+D:\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.dll
+D:\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.pdb
+D:\FYC\FYC.DataAccess\obj\Debug\FYC.DataAccess.csprojAssemblyReference.cache

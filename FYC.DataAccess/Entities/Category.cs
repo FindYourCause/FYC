@@ -8,7 +8,7 @@ namespace FYC.DataAccess.Entities
 {
     public class Category
     {
-        public int CategoryId { get; set; }
+        public long CategoryId { get; set; }
         public string CategoryName { get; set; }
         public string CategorySlug { get; set; }
         public string CategoryImage { get; set; }
