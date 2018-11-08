@@ -1,0 +1,550 @@
+﻿
+@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_FYCLayout.cshtml";
+}
+<div class="content">
+   
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Simple form
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="row">
+                                <div class="form-wrapper col-sm-6">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <div class="form-group ">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-6">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-12">
+                                    <label for="descriptionField">Additional notes</label>
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="descriptionField" placeholder="Enter any notes here..." style="height: 100px;"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-12">
+                                    <label for="sel1">Select list:</label>
+                                    <div class="form-group">
+                                        <select class="form-control" id="sel1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-wrapper col-sm-12">
+                                    <label for="exampleInputFileMin">File input</label>
+                                    <div class="form-group">
+                                        <input type="file" id="exampleInputFileMin">
+                                        <p class="help-block">Help-block text here.</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-12">
+                                    <div class="form-group">
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkbox-placeholder"></span>
+                                            Check me out
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-info">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Form control states and sizes
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="row">
+                                <div class="form-wrapper col-sm-6">
+                                    <label for="focusedInput">Read only</label>
+                                    <div class="form-group">
+                                        <input class="form-control" id="focusedInput" type="text" readonly="" placeholder="You can't edit me">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-6">
+                                    <label>Disabled</label>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" disabled="" placeholder="I am disabled">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="form-wrapper col-sm-4">
+                                            <label>Large input</label>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-lg">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-wrapper col-sm-4">
+                                            <label>Default input</label>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-wrapper col-sm-4">
+                                            <label>Small input</label>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-sm">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-4">
+                                    <label>Input with success</label>
+                                    <div class="form-group has-success has-feedback">
+                                        <input type="text" class="form-control" id="inputSuccess2">
+                                        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-4">
+                                    <label>Input with warning</label>
+                                    <div class="form-group has-warning has-feedback">
+                                        <input type="text" class="form-control" id="inputWarning2">
+                                        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper col-sm-4">
+                                    <label for="inputError2">Input with error</label>
+                                    <div class="form-group has-error has-feedback">
+                                        <input type="text" class="form-control" id="inputError2">
+                                        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Minimalist form
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="row">
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label for="exampleInputEmail2">Email address</label>
+                                    <div class="form-group ">
+                                        <input type="email" class="form-control minimalist" id="exampleInputEmail2" placeholder="example@gmail.com">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label for="exampleInputPassword2">Password</label>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control minimalist" id="exampleInputPassword2" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-12">
+                                    <label for="descriptionField2">Additional notes</label>
+                                    <div class="form-group">
+                                        <textarea class="form-control minimalist" id="descriptionField2" placeholder="Enter any notes here..." style="height: 100px;"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label for="sel2">Select list:</label>
+                                    <div class="form-group">
+                                        <select class="form-control" id="sel2">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label for="sel3">Select sub-list:</label>
+                                    <div class="form-group">
+                                        <select class="form-control" id="sel3">
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-12">
+                                    <label for="exampleInputFileMin">File input</label>
+                                    <div class="form-group">
+                                        <input type="file" id="exampleInputFileMin2">
+                                        <p class="help-block">Help-block text here.</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-12">
+                                    <div class="form-group">
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkbox-placeholder"></span>
+                                            Check me out
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-info btn-outline">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Form control states and sizes
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="row">
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label for="focusedInput2">Read only</label>
+                                    <div class="form-group">
+                                        <input class="form-control" id="focusedInput2" type="text" readonly="" placeholder="You can't edit me">
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-6">
+                                    <label>Disabled</label>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" disabled="" placeholder="I am disabled">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="form-wrapper minimalist col-sm-4">
+                                            <label>Large input</label>
+                                            <div class="form-group minimalist">
+                                                <input type="text" class="form-control input-lg">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-wrapper minimalist col-sm-4">
+                                            <label>Default input</label>
+                                            <div class="form-group minimalist">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-wrapper minimalist col-sm-4">
+                                            <label>Small input</label>
+                                            <div class="form-group minimalist">
+                                                <input type="text" class="form-control input-sm">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-4">
+                                    <label>Input with success</label>
+                                    <div class="form-group has-success has-feedback">
+                                        <input type="text" class="form-control">
+                                        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-4">
+                                    <label>Input with warning</label>
+                                    <div class="form-group has-warning has-feedback">
+                                        <input type="text" class="form-control">
+                                        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-wrapper minimalist col-sm-4">
+                                    <label>Input with error</label>
+                                    <div class="form-group has-error has-feedback">
+                                        <input type="text" class="form-control">
+                                        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Checkboxes
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <ul class="list-unstyled list-inline">
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkbox-placeholder"></span>
+                                            Unchecked
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" checked="">
+                                            <span class="checkbox-placeholder"></span>
+                                            Default
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="info" checked="">
+                                            <span class="checkbox-placeholder"></span>
+                                            Info
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="success" checked="">
+                                            <span class="checkbox-placeholder"></span>
+                                            Success
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="warning" checked="">
+                                            <span class="checkbox-placeholder"></span>
+                                            Warning
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="danger" checked="">
+                                            <span class="checkbox-placeholder"></span>
+                                            Danger
+                                        </label>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Radio
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <ul class="list-unstyled list-inline">
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" name="notchecked">
+                                            <span></span>
+                                            Unchecked
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" checked="">
+                                            <span></span>
+                                            Default
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" class="info" checked="">
+                                            <span></span>
+                                            Info
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" class="success" checked="">
+                                            <span></span>
+                                            Success
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" class="warning" checked="">
+                                            <span></span>
+                                            Warning
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="radio">
+                                            <input type="radio" class="danger" checked="">
+                                            <span></span>
+                                            Danger
+                                        </label>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    Toggles
+                                </div>
+                                <div class="panel-body">
+                                    <!-- Rounded switch -->
+                                    <label class="switch switch-lg">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <label class="switch dark">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <label class="switch switch-sm info">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider round"></span>
+                                    </label>
+
+                                    <!-- Rectangular switch -->
+                                    <label class="switch switch-lg success">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider"></span>
+                                    </label>
+
+                                    <label class="switch warning">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider"></span>
+                                    </label>
+
+                                    <label class="switch switch-sm danger">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    jQuery Knobs
+
+                                    <div class="panel-options">
+                                        <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                        <a class="panel-close"><i class="fa fa-times"></i></a>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <div style="display:inline;width:125px;height:125px;"><canvas width="125" height="125"></canvas><input class="knob" data-width="125" data-height="125" data-min="-100" data-displayprevious="true" value="44" data-fgcolor="#314557" style="width: 66px; height: 41px; position: absolute; vertical-align: middle; margin-top: 41px; margin-left: -95px; border: 0px; background: none; font: bold 25px Arial; text-align: center; color: rgb(49, 69, 87); padding: 0px; -webkit-appearance: none;"></div>
+                                        </li>
+                                        <li class="text-center">
+                                            <div style="display:inline;width:125px;height:125px;"><canvas width="125" height="125"></canvas><input class="knob" data-width="125" data-height="125" data-cursor="true" data-fgcolor="#0ec8a2" data-thickness=".3" value="29" style="width: 66px; height: 41px; position: absolute; vertical-align: middle; margin-top: 41px; margin-left: -95px; border: 0px; background: none; font: bold 25px Arial; text-align: center; color: rgb(14, 200, 162); padding: 0px; -webkit-appearance: none;"></div>
+                                        </li>
+                                        <li class="text-center">
+                                            <div style="display:inline;width:75px;height:75px;"><canvas width="75" height="75"></canvas><input class="knob" data-width="75" data-height="75" data-displayinput="false" value="35" data-fgcolor="#f95858" data-linecap="round" style="display: none; width: 0px; visibility: hidden;"></div>
+                                        </li>
+                                        <li>
+                                            <div style="display:inline;width:75px;height:75px;"><canvas width="75" height="75"></canvas><input class="knob" data-width="75" data-height="75" data-angleoffset="-125" data-anglearc="250" data-fgcolor="#fda737" data-rotation="anticlockwise" value="35" style="width: 41px; height: 25px; position: absolute; vertical-align: middle; margin-top: 25px; margin-left: -58px; border: 0px; background: none; font: bold 15px Arial; text-align: center; color: rgb(253, 167, 55); padding: 0px; -webkit-appearance: none;"></div>
+                                        </li>
+                                        <li>
+                                            <div style="display:inline;width:50px;height:50px;"><canvas width="50" height="50"></canvas><input class="knob" data-width="50" data-height="50" data-displayprevious="true" data-fgcolor="#0ec8a2" data-skin="tron" data-thickness=".2" value="75" style="width: 29px; height: 16px; position: absolute; vertical-align: middle; margin-top: 16px; margin-left: -39px; border: 0px; background: none; font: bold 10px Arial; text-align: center; color: rgb(14, 200, 162); padding: 0px; -webkit-appearance: none;"></div>
+                                        </li>
+                                        <li>
+                                            <div style="display:inline;width:50px;height:50px;"><canvas width="50" height="50"></canvas><input class="knob" data-width="50" data-height="50" data-angleoffset="180" data-fgcolor="#2da9e9" data-skin="tron" data-thickness=".1" value="35" style="width: 29px; height: 16px; position: absolute; vertical-align: middle; margin-top: 16px; margin-left: -39px; border: 0px; background: none; font: bold 10px Arial; text-align: center; color: rgb(45, 169, 233); padding: 0px; -webkit-appearance: none;"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            noUiSlider
+
+                            <div class="panel-options">
+                                <a class="panel-toggle"><i class="fa fa-chevron-up"></i></a>
+                                <a class="panel-close"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div id="vertical-slider" class="noUi-target noUi-rtl noUi-vertical noUi-background"><div class="noUi-base"><div class="noUi-origin noUi-connect noUi-draggable" style="top: 20%;"><div class="noUi-handle noUi-handle-upper"></div></div><div class="noUi-origin noUi-background" style="top: 80%;"><div class="noUi-handle noUi-handle-lower"></div></div></div><div class="noUi-pips noUi-pips-vertical"><div class="noUi-marker noUi-marker-vertical noUi-marker-large" style="top: 100%"></div><div class="noUi-value noUi-value-vertical noUi-value-large" style="top: 100%">0</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 98%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 96%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 94%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 92%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 90%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 90%">10</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 88%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 86%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 84%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 82%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 80%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 80%">20</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 78%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 76%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 74%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 72%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 70%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 70%">30</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 68%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 66%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 64%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 62%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 60%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 60%">40</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 58%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 56%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 54%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 52%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 50%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 50%">50</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 48%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 46%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 44%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 42%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 40%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 40%">60</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 38%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 36%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 34%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 32%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 30%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 30%">70</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 28%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 26%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 24%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 22%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 20%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 20%">80</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 18%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 16%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 14%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 12%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-sub" style="top: 10%"></div><div class="noUi-value noUi-value-vertical noUi-value-sub" style="top: 10%">90</div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 8%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 6%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 4%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-normal" style="top: 2%"></div><div class="noUi-marker noUi-marker-vertical noUi-marker-large" style="top: 0%"></div><div class="noUi-value noUi-value-vertical noUi-value-large" style="top: 0%">100</div></div></div>
+                            <div id="horizontal-sliders">
+                                <div class="v-spacing-md"></div>
+                                <h5> Basic horizontal slider </h5>
+                                <div id="connect" class="noUi-target noUi-ltr noUi-horizontal noUi-background"><div class="noUi-base"><div class="noUi-origin" style="left: 20%;"><div class="noUi-handle noUi-handle-lower"></div></div><div class="noUi-origin" style="left: 80%;"><div class="noUi-handle noUi-handle-upper"></div></div><div class="connect" style="left: 20%; right: 20%;"></div></div></div>
+                                <div class="v-spacing-lg"></div>
+                                <h5> Horizontal slider with inputs</h5>
+                                <div class="example form-group">
+                                    <div id="html5" class="noUi-target noUi-ltr noUi-horizontal noUi-background"><div class="noUi-base"><div class="noUi-origin noUi-connect" style="left: 50%;"><div class="noUi-handle noUi-handle-lower"></div></div><div class="noUi-origin noUi-background" style="left: 83.3333%;"><div class="noUi-handle noUi-handle-upper"></div></div></div></div>
+                                    <select id="input-select" class="form-control vcentered"><option> 1 </option><option> 2 </option><option value="-20">-20</option><option value="-19">-19</option><option value="-18">-18</option><option value="-17">-17</option><option value="-16">-16</option><option value="-15">-15</option><option value="-14">-14</option><option value="-13">-13</option><option value="-12">-12</option><option value="-11">-11</option><option value="-10">-10</option><option value="-9">-9</option><option value="-8">-8</option><option value="-7">-7</option><option value="-6">-6</option><option value="-5">-5</option><option value="-4">-4</option><option value="-3">-3</option><option value="-2">-2</option><option value="-1">-1</option><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option></select>
+                                    <input type="number" class="form-control vcentered" min="-20" max="40" step="1" id="input-number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
